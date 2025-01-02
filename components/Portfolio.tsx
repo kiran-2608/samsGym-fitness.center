@@ -5,7 +5,7 @@ import Image from "next/image";
 import project1 from "@/assets/proj5.png";
 import project2 from "@/assets/proj6.png";
 import project3 from "@/assets/proj7.png";
-import { div, image } from "framer-motion/client";
+
 import {
   useMotionTemplate,
   useMotionValue,
