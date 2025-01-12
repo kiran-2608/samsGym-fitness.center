@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import project1 from "@/assets/strength.jpg";
 import project2 from "@/assets/proj6.png";
-import project3 from "@/assets/proj7.png";
+import project3 from "@/assets/nutrition.jpg";
 
 import {
   useMotionTemplate,
@@ -31,10 +31,10 @@ const projects = [
   },
   {
     id: 3,
-    year: 2024,
-    title: "Parking Space Counter",
+    // year: 2024,
+    title: "Nutritionist",
     description:
-      "Developed an automated parking space detection and counting system leveraging OpenCV for real-time video processing and computer vision techniques.",
+      "As a nutritionist, I specialize in creating personalized nutrition plans that align with your health, fitness, and lifestyle goals. By combining science-based knowledge with practical strategies, I help you make informed food choices to optimize energy, enhance performance, and improve overall well-being. Whether your goal is weight management, muscle building, or improving health conditions, my approach focuses on balance, sustainability, and results..",
     image: project3,
   },
 ];
@@ -76,7 +76,7 @@ export const Portfolio = () => {
               onClick={() => setSelectedProject(project)}
               className="cursor-pointer mb-8 group"
             >
-              <p className="text-gray-400 text-lg mb-2">{project.year}</p>
+              {/* <p className="text-gray-400 text-lg mb-2">{project.year}</p> */}
               <h3
                 className={`text-3xl font-semibold group-hover:text-gray-400 transition-colors ${
                   selectedProject.id === project.id ? "text-purple-200" : ""
