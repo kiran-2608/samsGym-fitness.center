@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import project1 from "@/assets/strength.jpg";
-import project2 from "@/assets/pTraining.jpg";
+import project2 from "@/assets/proj14.jpg";
 import project3 from "@/assets/nutrition.jpg";
 
 import {
