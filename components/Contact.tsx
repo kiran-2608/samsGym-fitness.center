@@ -31,14 +31,14 @@ export const Contact = () => {
                         <div className='space-y-2'>
                             <p className='text-lg text-gray-300'>Phone</p>
                             <a href="tel: +999999999"
-                            className='text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center gap-2'>+91 6304915556</a>
+                            className='text-2xl font-semibold hover:text-purple-400 transition duration-300 flex items-center gap-2'>+91 8099557005</a>
                             <span className='text-gray-500'>➚</span>
 
                         </div>
 
                         <div className='space-y-2'>
                             <p className='text-lg text-gray-300'>Email</p>
-                            <a href="mailto:kirankumarbehera2608@gmail.com" className='text-3xl lg:text-4xl font-semibold hover:text-purple-400 transition duration-300 flex items-center'>kirankumarbehera2608
+                            <a href="mailto:samsgym.fitnesscenter@gmail.com" className='text-3xl lg:text-4xl font-semibold hover:text-purple-400 transition duration-300 flex items-center'>samsgym.fitnesscenter
                                 <span className='text-gray-500'>➚</span>
                             </a>
                         </div>

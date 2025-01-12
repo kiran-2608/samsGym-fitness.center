@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import project1 from "@/assets/strength.jpg";
-import project2 from "@/assets/proj6.png";
+import project2 from "@/assets/pTraining.jpg";
 import project3 from "@/assets/nutrition.jpg";
 
 import {
@@ -68,7 +68,7 @@ export const Portfolio = () => {
       <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12">
         <div>
           <h2 className="text-6xl font-bold mb-10">
-            My <span className="text-gray-400">Services</span>
+            Certified <span className="text-gray-400">In</span>
           </h2>
           {projects.map((project) => (
             <div

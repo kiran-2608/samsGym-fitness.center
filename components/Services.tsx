@@ -2,40 +2,38 @@
 const services = [
     {
       id: "01",
-      title: "Web Design",
+      title: "Bodybuilding ",
       description:
-        "Crafting visually stunning and user-friendly websites tailored to your brand's identity and goals.",
+        "Dedicated to building strength, endurance, and muscle through personalized training programs and disciplined nutrition.",
     },
     {
       id: "02",
-      title: "SEO Optimization",
-      description:
-        "Enhancing your website's visibility and ranking on search engines through strategic keyword integration and technical optimization.",
+      title: "Online Training",
+      description: "Providing personalized online training programs designed to help clients achieve their fitness goals anytime, anywhere."
     },
+    
     {
       id: "03",
-      title: "UX/UI Design",
-      description:
-        "Creating intuitive and engaging user experiences and interfaces that prioritize user satisfaction and ease of use.",
+      title: "Personal Training",
+      description: "Offering customized, one-on-one fitness coaching to help clients achieve their unique health and fitness goals."
     },
+    
     {
       id: "04",
-      title: "Digital Marketing",
-      description:
-        "Strategizing and executing comprehensive digital marketing campaigns to boost your online presence and engagement.",
+      title: "Scheduled Workout Plan",
+      description: "Designing and structuring personalized workout plans to ensure consistent progress and achievement of fitness goals."
     },
     {
       id: "05",
-      title: "Content Creation",
-      description:
-        "Crafting engaging and relevant content, including blogs, videos, and graphics, to connect with your audience and enhance your brand story.",
+      title: "Supplement Guidance",
+      description: "Providing expert advice on supplements to support training goals, enhance performance, and ensure optimal health."
     },
     {
       id: "06",
-      title: "Social Media Management",
-      description:
-        "Managing your social media channels to build brand awareness, engage your audience, and grow your online presence.",
+      title: "Diet Plan",
+      description: "Creating balanced and nutritious diet plans tailored to individual needs for optimal health, muscle gain, or weight loss."
     },
+    
   ];
 export const Services = () => {
    

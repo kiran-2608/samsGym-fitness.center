@@ -6,34 +6,34 @@ import {motion , useInView} from 'framer-motion'
 const metrics = [
     {
       id: 1,
-      value: '2+',
+      value: '12+',
       label: 'Years of Experience',
-      description: 'Dedicated to honing my skills in full-stack development.',
+      description: 'Dedicated to mastering the art of bodybuilding, focusing on strength, discipline, and performance.',
     },
     {
       id: 2,
-      value: '20+',
-      label: 'Projects Completed',
-      description: 'From small applications to complex web platforms.',
+      value: '5000+',
+      label: 'Trained people',
+      description: 'Empowered over 5,000 individuals to achieve their fitness goals through tailored training programs.',
     },
-    {
-      id: 3,
-      value: '10+',
-      label: 'Technologies Mastered',
-      description: 'Proficient in various programming languages and frameworks.',
-    },
+    // {
+    //   id: 3,
+    //   value: '10+',
+    //   label: 'Technologies Mastered',
+    //   description: 'Proficient in various programming languages and frameworks.',
+    // },
     {
       id: 4,
-      value: '99%',
-      label: 'Code Quality',
-      description: 'Committed to writing clean, efficient, and maintainable code.',
+      value: '4+',
+      label: 'Stage Shows',
+      description: 'Participated in over 4 stage shows, showcasing dedication to excellence in bodybuilding and performance.',
     },
-    {
-      id: 5,
-      value: '1000+',
-      label: 'Commits on GitHub',
-      description: 'Active contributor to open-source and personal projects.',
-    },
+    // {
+    //   id: 5,
+    //   value: '1000+',
+    //   label: 'Commits on GitHub',
+    //   description: 'Active contributor to open-source and personal projects.',
+    // },
   ];
 
 export const KeyMetrics = () => {
