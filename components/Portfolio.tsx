@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import project1 from "@/assets/proj5.png";
+import project1 from "@/assets/strength.jpg";
 import project2 from "@/assets/proj6.png";
 import project3 from "@/assets/proj7.png";
 
@@ -16,17 +16,17 @@ import {
 const projects = [
   {
     id: 1,
-    year: 2024,
-    title: "Full Stack Ecommerce App",
+    // year: 2024,
+    title: "Strength Training",
     description:
-      "Developed a full-featured e-commerce platform using the MERN stack, incorporating an admin dashboard for efficient management and monitoring of products, orders, and users",
+      "My programs are designed to help individuals enhance their physical capabilities through structured exercises using weights, resistance bands, machines, and bodyweight techniques. With a focus on proper form and progressive overload, I ensure clients achieve sustainable results, improved athletic performance, and reduced risk of injuries.",
     image: project1,
   },
   {
     id: 2,
-    year: 2024,
-    title: "MERN Authentication",
-    description: "Email Verification, Password Recovery, and Welcome Emails",
+    // year: 2024,
+    title: "Personal training ",
+    description: "As a personal trainer, I provide customized workout plans, one-on-one guidance, and expert support to ensure maximum efficiency and results. From weight loss and muscle building to improving overall strength and endurance, my approach focuses on proper form, injury prevention, and consistent progress. Together, we'll create a sustainable path to fitness that fits your lifestyle and empowers you to become the best version of yourself.",
     image: project2,
   },
   {
@@ -68,7 +68,7 @@ export const Portfolio = () => {
       <div className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12">
         <div>
           <h2 className="text-6xl font-bold mb-10">
-            Selected <span className="text-gray-400">Projects</span>
+            My <span className="text-gray-400">Services</span>
           </h2>
           {projects.map((project) => (
             <div
