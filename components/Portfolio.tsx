@@ -153,6 +153,8 @@ import project4Img5 from "@/assets/s5.jpg"
 import project4Img6 from "@/assets/s6.jpg"
 import project4Img7 from "@/assets/s7.jpg"
 import project4Img8 from "@/assets/s8.jpg"
+import project4Img9 from "@/assets/s9.jpg"
+import project4Img10 from "@/assets/s10.jpg"
 
 const projects = [
   {
@@ -181,7 +183,7 @@ const projects = [
     title: "Stage Shows",
     description:
       "At Sam's Gym, we take fitness beyond the gym by participating in high-energy stage shows and fitness events. Our team, including trainers and clients, showcases their strength, endurance, and agility through choreographed performances, fitness demonstrations, and competitive events. We provide structured training programs to prepare participants for bodybuilding expos, functional fitness showcases, aerobics displays, and more. Our performances inspire audiences and highlight the power of dedication, training, and teamwork.",
-    images: [project4Img1, project4Img2, project4Img3 , project4Img4 , project4Img5 , project4Img6 , project4Img7 , project4Img8],
+    images: [project4Img1, project4Img2, project4Img3 , project4Img4 , project4Img5 , project4Img6 , project4Img7 , project4Img8 , project4Img9 , project4Img10],
   }
 
 ];
