@@ -66,7 +66,7 @@ export const Hero = () => {
           <p className="font-medium">5000+ Happy Clients</p>
         </div>
         <p className="my-6 max-w-xl text-center">
-          With 12+ years of experience, trained 5,000+ clients, and organized 5
+          With 15+ years of experience, trained 5,000+ clients, and organized 5
           prestigious fitness events.
         </p>
         <motion.button
