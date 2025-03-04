@@ -145,6 +145,15 @@ import project3Img3 from "@/assets/proj331.jpg";
 import project3Img4 from "@/assets/proj332.jpg";
 import project3Img5 from "@/assets/proj333.jpg";
 
+import project4Img1 from "@/assets/s1.jpg"
+import project4Img2 from "@/assets/s2.jpg"
+import project4Img3 from "@/assets/s3.jpg"
+import project4Img4 from "@/assets/s4.jpg"
+import project4Img5 from "@/assets/s5.jpg"
+import project4Img6 from "@/assets/s6.jpg"
+import project4Img7 from "@/assets/s7.jpg"
+import project4Img8 from "@/assets/s8.jpg"
+
 const projects = [
   {
     id: 1,
@@ -167,6 +176,14 @@ const projects = [
       "As a nutritionist, I specialize in creating personalized nutrition plans that align with your health, fitness, and lifestyle goals. By combining science-based knowledge with practical strategies, I help you make informed food choices to optimize energy, enhance performance, and improve overall well-being. Whether your goal is weight management, muscle building, or improving health conditions, my approach focuses on balance, sustainability, and results.",
     images: [project3Img1, project3Img2, project3Img3 , project3Img4 , project3Img5],
   },
+  {
+    id: 4,
+    title: "Stage Shows",
+    description:
+      "At Sam's Gym, we take fitness beyond the gym by participating in high-energy stage shows and fitness events. Our team, including trainers and clients, showcases their strength, endurance, and agility through choreographed performances, fitness demonstrations, and competitive events. We provide structured training programs to prepare participants for bodybuilding expos, functional fitness showcases, aerobics displays, and more. Our performances inspire audiences and highlight the power of dedication, training, and teamwork.",
+    images: [project4Img1, project4Img2, project4Img3 , project4Img4 , project4Img5 , project4Img6 , project4Img7 , project4Img8],
+  }
+
 ];
 
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
