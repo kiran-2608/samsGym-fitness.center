@@ -320,7 +320,7 @@ import project1Img2 from "@/assets/proj111.jpg";
 import project1Img3 from "@/assets/proj112.jpg";
 import project1Img4 from "@/assets/proj113.jpg";
 import project1Img5 from "@/assets/proj114.jpg";
-import project1Img6 from "@/assets/proj115.jpg";
+// import project1Img6 from "@/assets/proj115.jpg";
 import project1Img7 from "@/assets/proj116.jpg";
 
 import project2Img1 from "@/assets/proj14.jpg";
